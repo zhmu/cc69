@@ -1,0 +1,6 @@
+sdkdir=@sdkdir@
+
+Name: xorg-irtouch
+Description: X.Org IRTouch USB touchscreen input driver.
+Version: @PACKAGE_VERSION@
+Cflags: -I${sdkdir}

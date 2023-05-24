@@ -1,0 +1,25 @@
+.ds q \N'34'
+.TH RANDOM __drivermansuffix__ __vendorversion__
+.SH NAME
+irtouch \- X.Org input driver for IRTouch USB touchscreens
+.SH SYNOPSIS
+.nf
+.B "Section \*qInputDevice\*q"
+.BI "  Identifier \*q" devname \*q
+.B  "  Driver \*qirtouch\*q"
+.BI "  Option \*qDevice\*q   \*q" devpath \*q
+\ \ ...
+.B EndSection
+.fi
+.SH DESCRIPTION
+.B irtouch
+is an __xservername__ input driver It tries to support IRTouch multitouch
+USB touchscreens.
+.PP
+.SH SUPPORTED HARDWARE
+Currently, only the IRTouch multitouch USB screens with vendor ID 6615 and 
+device ID 0020 is supported.
+
+.SH "SEE ALSO"
+__xservername__(__appmansuffix__), __xconfigfile__(__filemansuffix__), Xserver(__appmansuffix__), X(__miscmansuffix__),
+README.mouse.
